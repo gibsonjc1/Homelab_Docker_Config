@@ -1,0 +1,17 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/info-widgets/
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+- unifi_console:
+    url: https://unifi-ssl.cattledogvsgolden.com
+    username: svcacct-homepage-local
+    password: 9pF#d7$DNv&GC%xl&0x39XP940rAhaVn
