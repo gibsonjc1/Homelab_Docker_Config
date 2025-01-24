@@ -1,0 +1,665 @@
+[2025-01-24T03:21:54.290Z] info: docker.yaml was copied to the config folder
+[2025-01-24T03:21:54.294Z] info: services.yaml was copied to the config folder
+[2025-01-24T03:21:54.295Z] info: bookmarks.yaml was copied to the config folder
+[2025-01-24T03:21:54.304Z] info: widgets.yaml was copied to the config folder
+[2025-01-24T03:21:54.305Z] info: custom.css was copied to the config folder
+[2025-01-24T03:21:54.306Z] info: custom.js was copied to the config folder
+[2025-01-24T03:21:54.338Z] info: kubernetes.yaml was copied to the config folder
+[2025-01-24T03:25:39.372Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T03:26:06.206Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T03:26:06.371Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T03:26:06.914Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T03:27:25.276Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:21:30.359Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:21:31.241Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:23:51.357Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:24:47.287Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:42:28.805Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:45:25.726Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:45:33.088Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:45:41.215Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:45:55.249Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:46:27.351Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:48:20.023Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:56:33.164Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:56:33.833Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:57:19.904Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T16:58:43.215Z] error: <httpProxy> Error calling https://unifi-ssl.cattledogvsgolden.com/...
+[2025-01-24T16:58:43.219Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T17:00:54.285Z] error: <httpProxy> Error calling https://unifi-ssl.cattledogvsgolden.com//api/stat/sites...
+[2025-01-24T17:00:54.287Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T17:00:54.288Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi-ssl.cattledogvsgolden.com//api/stat/sites. Data: { error: [Object] }
+[2025-01-24T17:00:56.300Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:00:58.300Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:01:37.184Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:01:38.139Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:01:41.791Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:04:14.284Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:04:16.144Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:05:09.466Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:05:11.095Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:10:09.916Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:12:42.770Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:27:51.427Z] error: <dockerStatusService> TypeError: Cannot read properties of null (reading 'plex')
+    at getDockerArguments (/app/.next/server/chunks/2045.js:44:14)
+    at handler (/app/.next/server/pages/api/docker/status/[...service].js:88:96)
+    at Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)
+[2025-01-24T17:28:27.043Z] error: undefined
+[2025-01-24T17:28:32.167Z] error: undefined
+[2025-01-24T17:28:39.315Z] error: undefined
+[2025-01-24T17:28:47.458Z] error: undefined
+[2025-01-24T17:28:49.433Z] error: undefined
+[2025-01-24T17:29:48.035Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:30:10.105Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:30:10.282Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:30:10.930Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:31:28.275Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:33:50.416Z] error: <servicesProxy> YAMLException: bad indentation of a sequence entry (32:5)
+
+ 29 |         href: https://pfsense.cattl ...
+ 30 |         description: Router and Fir ...
+ 31 | 
+ 32 |     - UniFi (Seattle):
+----------^
+ 33 |         icon: unifi.png
+ 34 |         href: https://unifi-ssl.cat ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2562:45)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+[2025-01-24T17:33:50.419Z] error: <servicesProxy> YAMLException: bad indentation of a sequence entry (32:5)
+
+ 29 |         href: https://pfsense.cattl ...
+ 30 |         description: Router and Fir ...
+ 31 | 
+ 32 |     - UniFi (Seattle):
+----------^
+ 33 |         icon: unifi.png
+ 34 |         href: https://unifi-ssl.cat ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2562:45)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+[2025-01-24T17:33:50.426Z] error: Failed to load services.yaml, please check for errors
+[2025-01-24T17:33:50.427Z] error: YAMLException: bad indentation of a sequence entry (32:5)
+
+ 29 |         href: https://pfsense.cattl ...
+ 30 |         description: Router and Fir ...
+ 31 | 
+ 32 |     - UniFi (Seattle):
+----------^
+ 33 |         icon: unifi.png
+ 34 |         href: https://unifi-ssl.cat ...
+[2025-01-24T17:33:50.525Z] error: Failed to load services.yaml, please check for errors
+[2025-01-24T17:33:50.526Z] error: YAMLException: bad indentation of a sequence entry (32:5)
+
+ 29 |         href: https://pfsense.cattl ...
+ 30 |         description: Router and Fir ...
+ 31 | 
+ 32 |     - UniFi (Seattle):
+----------^
+ 33 |         icon: unifi.png
+ 34 |         href: https://unifi-ssl.cat ...
+[2025-01-24T17:33:50.923Z] error: <servicesProxy> YAMLException: bad indentation of a sequence entry (32:5)
+
+ 29 |         href: https://pfsense.cattl ...
+ 30 |         description: Router and Fir ...
+ 31 | 
+ 32 |     - UniFi (Seattle):
+----------^
+ 33 |         icon: unifi.png
+ 34 |         href: https://unifi-ssl.cat ...
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2562:45)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///app/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+[2025-01-24T17:33:50.939Z] error: Failed to load services.yaml, please check for errors
+[2025-01-24T17:33:50.940Z] error: YAMLException: bad indentation of a sequence entry (32:5)
+
+ 29 |         href: https://pfsense.cattl ...
+ 30 |         description: Router and Fir ...
+ 31 | 
+ 32 |     - UniFi (Seattle):
+----------^
+ 33 |         icon: unifi.png
+ 34 |         href: https://unifi-ssl.cat ...
+[2025-01-24T17:35:10.129Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:35:10.794Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:35:26.386Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:35:26.792Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:35:59.688Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:35:59.904Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:36:00.548Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:36:20.081Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:36:20.314Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:36:20.724Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:36:45.132Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:36:45.671Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:37:27.431Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:37:27.576Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:37:28.169Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:40:52.777Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:40:53.319Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:40:53.558Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T17:40:53.867Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T21:06:08.818Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:08.824Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:08.833Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:08.834Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:09.538Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:09.540Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:09.548Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:09.549Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:15.241Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:15.243Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:15.254Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:15.255Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:08:36.261Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:08:36.263Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:08:36.280Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:08:36.280Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.139Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.141Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.160Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.160Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.726Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.727Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.836Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.837Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:06.525Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:06.526Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:06.544Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:06.544Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:07.773Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:07.773Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:07.789Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:07.789Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:16.268Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:16.269Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:16.302Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:16.304Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
