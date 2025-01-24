@@ -33,6 +33,8 @@
       icon: unifi.png
       href: https://unifi-ssl.cattledogvsgolden.com
       description: Switches and Wi-Fi
+      siteMonitor: https://unifi-ssl.cattledogvsgolden.com
+      ping: unifi.cattledogvsgolden.com
       widget:
         type: unifi
         fields: ["lan_users", "lan_devices", "wlan", "wlan_users", "wlan_devices"]

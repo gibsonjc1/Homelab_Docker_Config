@@ -483,3 +483,183 @@
 [2025-01-24T17:40:53.319Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
 [2025-01-24T17:40:53.558Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
 [2025-01-24T17:40:53.867Z] error: <unifiProxyHandler> HTTP 400 logging in to Unifi. Data: {"meta":{"rc":"error","msg":"api.err.Invalid"},"data":[]}
+[2025-01-24T21:06:08.818Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:08.824Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:08.833Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:08.834Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:09.538Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:09.540Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:09.548Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:09.549Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:15.241Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:15.243Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:06:15.254Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:06:15.255Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:08:36.261Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:08:36.263Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:08:36.280Z] error: <httpProxy> Error calling http://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:08:36.280Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.139Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.141Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.160Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.160Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.726Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.727Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:02.836Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:02.837Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:06.525Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:06.526Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:06.544Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:06.544Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:07.773Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:07.773Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:07.789Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:07.789Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:16.268Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:16.269Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2025-01-24T21:09:16.302Z] error: <httpProxy> Error calling https://unifi.cattledogvsgolden.com/...
+[2025-01-24T21:09:16.304Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
