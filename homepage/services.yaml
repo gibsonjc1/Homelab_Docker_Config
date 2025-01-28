@@ -45,7 +45,7 @@
 
 - Applications:
     - Nginx Reverse Proxy (Ubuntu-Rack):
-        icon: nginx.png
+        icon: nginx-proxy-manager.png
         href: http://nginxrp-ur.cattledogvsgolden.com:81
         description: Reverse Proxy
         siteMonitor: http://nginxrp-ur.cattledogvsgolden.com:81
