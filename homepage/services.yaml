@@ -3,31 +3,31 @@
 # https://gethomepage.dev/configs/services/
 
 - Media:
-    - Plex:
-        href: http://localhost/
-        description: Homepage is awesome
+  - Plex:
+    href: http://localhost/
+    description: Homepage is awesome
 
 - My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+  - My Second Service:
+    href: http://localhost/
+    description: Homepage is the best
 
 - My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+  - My Third Service:
+    href: http://localhost/
+    description: Homepage is 😎
 
 - My Fourth Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+  - My Third Service:
+    href: http://localhost/
+    description: Homepage is 😎
 
 
 - Infrastructure:
   - pfSense (Seattle):
-        icon: pfsense.png
-        href: https://pfsense.cattledogvsgolden.com:10443/
-        description: Router and Firewall
+      icon: pfsense.png
+      href: https://pfsense.cattledogvsgolden.com:10443/
+      description: Router and Firewall
 
   - UniFi (Seattle):
       icon: unifi.png
@@ -42,3 +42,15 @@
         username: svcacct-homepage-local
         password: 9pF#d7$DNv&GC%xl&0x39XP940rAhaVn
         site: Seattle
+
+- Applications:
+    - Nginx Reverse Proxy (Ubuntu-Rack):
+        icon: nginx.png
+        href: http://nginxrp-ur.cattledogvsgolden.com:81
+        description: Reverse Proxy
+        siteMonitor: http://nginxrp-ur.cattledogvsgolden.com:81
+        widget:
+          type: npm
+          url: http://nginxrp-ur.cattledogvsgolden.com:81
+          username: svcacct-homepage-local@cattledogvsgolden.com
+          password: 1WW@HPjaEMFQ#L@0x^RDqfQ*a7&dIw^4
