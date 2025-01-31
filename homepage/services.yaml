@@ -32,6 +32,13 @@
         username: svcacct-homepage-local@cattledogvsgolden.com
         password: 1WW@HPjaEMFQ#L@0x^RDqfQ*a7&dIw^4
 
+  - TrueNAS:
+      icon: truenas.png
+      href: https://truenas.cattledogvsgolden.com:
+      description: TrueNAS
+      siteMonitor: https://truenas.cattledogvsgolden.com
+
+
 - Media:
   - Plex:
     href: http://localhost/
