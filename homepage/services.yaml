@@ -23,12 +23,12 @@
 
   - Nginx Proxy Manager:
       icon: nginx-proxy-manager.png
-      href: http://nginxrp-ur.cattledogvsgolden.com:81
-      description: Proxy Manager for Docker-Host
-      siteMonitor: http://nginxrp-ur.cattledogvsgolden.com:81
+      href: http://nginxpm-ur.cattledogvsgolden.com:81
+      description: Proxy Manager for Ubuntu-Rack
+      siteMonitor: http://nginxpm-ur.cattledogvsgolden.com:81
       widget:
         type: npm
-        url: http://nginxrp-ur.cattledogvsgolden.com:81
+        url: http://nginxpm-ur.cattledogvsgolden.com:81
         username: svcacct-homepage-local@cattledogvsgolden.com
         password: 1WW@HPjaEMFQ#L@0x^RDqfQ*a7&dIw^4
 
