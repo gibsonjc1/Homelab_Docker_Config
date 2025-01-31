@@ -21,10 +21,10 @@
         password: 9pF#d7$DNv&GC%xl&0x39XP940rAhaVn
         site: Seattle
 
-  - Nginx Reverse Proxy (Ubuntu-Rack):
+  - Nginx Proxy Manager:
       icon: nginx-proxy-manager.png
       href: http://nginxrp-ur.cattledogvsgolden.com:81
-      description: Reverse Proxy
+      description: Proxy Manager for Docker-Host
       siteMonitor: http://nginxrp-ur.cattledogvsgolden.com:81
       widget:
         type: npm
@@ -41,35 +41,33 @@
 
 - Media:
   - Plex:
-    href: http://localhost/
-    description: Homepage is awesome
+      icon: plex.png
+      href: http://localhost/
+      description: Homepage is awesome
 
   - My Second Service:
-    href: http://localhost/
-    description: Homepage is the best
+      href: http://localhost/
+      description: Homepage is the best
 
   - My Third Service:
-    href: http://localhost/
-    description: Homepage is 😎
+      href: http://localhost/
+      description: Homepage is 😎
 
-  - My Third Service:
-    href: http://localhost/
-    description: Homepage is 😎
+  - My Fourth Service:
+      href: http://localhost/
+      description: Homepage is 😎
 
 
 - Applications:
   - My First Service:
-    href: http://localhost/
-    description: Homepage is awesome
+      href: http://localhost/
+      description: Homepage is awesome
 
   - My Second Service:
-    href: http://localhost/
-    description: Homepage is the best
+      href: http://localhost/
+      description: Homepage is the best
 
   - My Third Service:
-    href: http://localhost/
-    description: Homepage is 😎
+      href: http://localhost/
+      description: Homepage is 😎
 
-  - My Third Service:
-    href: http://localhost/
-    description: Homepage is 😎

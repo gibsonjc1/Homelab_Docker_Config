@@ -7,10 +7,10 @@ providers:
   weatherapi: weatherapiapikey
 
 layout:
-    Infrastructure (Seattle):
-      style: row
-      columns: 5
-    Media:
-      style: column
-    Applications:
-      style: column
+  Infrastructure (Seattle):
+    style: row
+    columns: 4
+  Media:
+    style: column
+  Applications:
+    style: column
