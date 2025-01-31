@@ -5,3 +5,12 @@
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+
+layout:
+    Infrastructure (Seattle):
+      style: row
+      columns: 5
+    Media:
+      style: column
+    Applications:
+      style: column
