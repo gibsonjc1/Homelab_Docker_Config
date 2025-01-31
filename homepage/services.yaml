@@ -34,7 +34,7 @@
 
   - TrueNAS:
       icon: truenas.png
-      href: https://truenas.cattledogvsgolden.com:
+      href: https://truenas.cattledogvsgolden.com
       description: TrueNAS
       siteMonitor: https://truenas.cattledogvsgolden.com
 
