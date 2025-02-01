@@ -1,1 +1,8 @@
+# Ignores all Homepage log files
 /homepage/logs
+
+# Ignores all Nginx Proxy Manager files
+nginx_proxy_manager/
+
+# Does not ignore Nginx Proxy Manager Docker compose file
+!nginx_proxy_manager/docker-compose.yml

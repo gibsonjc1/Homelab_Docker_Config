@@ -4,8 +4,9 @@
 - Infrastructure (Seattle):
   - pfSense:
       icon: pfsense.png
-      href: https://pfsense.cattledogvsgolden.com:10443/
+      href: https://pfsense.cattledogvsgolden.com:10443
       description: Router and Firewall
+      siteMonitor: https://pfsense.cattledogvsgolden.com:10443
 
   - UniFi:
       icon: unifi.png
