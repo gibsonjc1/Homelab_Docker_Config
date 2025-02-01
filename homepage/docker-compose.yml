@@ -17,4 +17,5 @@ services:
 
 networks:
   Front_End:
+    name: Front_End
     driver: bridge
