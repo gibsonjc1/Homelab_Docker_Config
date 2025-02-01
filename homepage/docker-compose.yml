@@ -17,5 +17,6 @@ services:
 
 networks:
   Front_End:
+    external: true
     name: Front_End
     driver: bridge
