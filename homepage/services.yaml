@@ -10,13 +10,13 @@
 
   - UniFi:
       icon: unifi.png
-      href: https://unifi-ssl.cattledogvsgolden.com
+      href: https://unifi.cattledogvsgolden.com
       description: Switches and Wi-Fi
-      siteMonitor: https://unifi-ssl.cattledogvsgolden.com
+      siteMonitor: https://unifi.cattledogvsgolden.com
       widget:
         type: unifi
         fields: ["lan_users", "lan_devices", "wlan", "wlan_users", "wlan_devices"]
-        url: https://unifi-ssl.cattledogvsgolden.com
+        url: https://unifi.cattledogvsgolden.com
         username: svcacct-homepage-local
         password: 9pF#d7$DNv&GC%xl&0x39XP940rAhaVn
         site: Seattle
