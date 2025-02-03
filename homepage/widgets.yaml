@@ -12,6 +12,6 @@
     target: _blank
 
 - unifi_console:
-    url: https://unifi-ssl.cattledogvsgolden.com
+    url: https://unifi.cattledogvsgolden.com:8443
     username: svcacct-homepage-local
     password: 9pF#d7$DNv&GC%xl&0x39XP940rAhaVn
