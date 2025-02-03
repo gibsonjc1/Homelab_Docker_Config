@@ -5,8 +5,11 @@ services:
     networks:
       - Front_End
     container_name: homepage
-    ports:
-      - 3000:3000
+
+# Not needed once Nginx Proxy Manager is serving homepage
+#    ports:
+#      - 3000:3000
+
     volumes:
       - /opt/docker/Homelab_Docker_Config/homepage:/app/config
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations, see alternative methods
