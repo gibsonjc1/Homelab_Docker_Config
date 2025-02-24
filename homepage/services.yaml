@@ -42,8 +42,13 @@
 - Media:
   - Plex:
       icon: plex.png
-      href: http://localhost/
-      description: Homepage is awesome
+      href: http://plex.cattledogvsgolden.com:32400
+      description: Plex Self Hosted Media Server
+      siteMonitor: http://plex.cattledogvsgolden.com:32400
+      widget:
+        type: plex
+        url: http://plex.cattledogvsgolden.com:32400
+        key: 5Tdyo3dfmnp2--c9EyxQ
 
   - My Second Service:
       href: http://localhost/
