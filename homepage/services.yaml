@@ -43,7 +43,7 @@
   - Plex:
       icon: plex.png
       href: http://plex.cattledogvsgolden.com:32400
-      description: Plex Self Hosted Media Server
+      description: Self Hosted Media Server
       siteMonitor: http://plex.cattledogvsgolden.com:32400
       widget:
         type: plex
