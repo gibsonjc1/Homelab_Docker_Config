@@ -37,6 +37,12 @@
       href: https://truenas.cattledogvsgolden.com
       description: TrueNAS
       siteMonitor: https://truenas.cattledogvsgolden.com
+      widget:
+        type: truenas
+        url: https://truenas.cattledogvsgolden.com
+        key: 2-324C0Vlji0aRjKtgbk7Z3O2mrR0vUdqWPQHvVfB6T31W2np8TSbUWPAvaFoJzXCN
+        enablePools: true # optional, defaults to false
+        nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
 
 
 - Media:
