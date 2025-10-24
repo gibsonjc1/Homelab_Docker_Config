@@ -58,7 +58,8 @@
 
   - qBittorrent:
       icon: qbittorrent.png
-      href: http://192.168.46.11:8080
+      #Shortcut doesn't work since VPN blocks all non-VPN, non-garage traffic
+      #href: http://192.168.46.11:8080
       description: Torrent Client
       siteMonitor: http://192.168.46.11:8080
       widget:
