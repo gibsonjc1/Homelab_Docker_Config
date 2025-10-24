@@ -56,9 +56,18 @@
         url: http://plex.cattledogvsgolden.com:32400
         key: 5Tdyo3dfmnp2--c9EyxQ
 
-  - My Second Service:
-      href: http://localhost/
-      description: Homepage is the best
+  - qBittorrent:
+      icon: qbittorrent.png
+      href: http://192.168.46.11:8080
+      description: Torrent Client
+      siteMonitor: http://192.168.46.11:8080
+      widget:
+        type: qbittorrent
+        url: http://192.168.46.11:8080
+        username: qbittorrent-admin
+        password: Bd*ZS0&0XCDjy9fd
+        enableLeechProgress: true # optional, defaults to false
+
 
   - My Third Service:
       href: http://localhost/
